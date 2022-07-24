@@ -8,7 +8,7 @@ the required pages are as follows:
 - an about me page, basically a page with your contact information, (like your name, personal website, phone number,etc...)
 - a page that returns an alternating images layout of your interests with small descriptions about them  (like the following page)
 
-![preview-page](./assests/preview.png)
+![preview-page](./assets/preview.png)
 
 
 ## Notes
