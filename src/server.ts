@@ -29,9 +29,15 @@ server.get('/images', (req, reply) => {
 })
 
 
-server.listen({ port: 3000, host: '0.0.0.0' }, err => {
-    if (err) {
-        console.log(err);
-        process.exit(1);
-    }
-})
+const port: any = process.env.PORT ?? process.env.$PORT ?? 3000;
+const host = process.env.HOST || "0.0.0.0";
+
+server
+  .listen({
+    port,
+    host,
+  })
+  .catch((err) => {
+    server.log.error(err);
+    process.exit(1);
+  });
