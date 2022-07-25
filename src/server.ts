@@ -29,7 +29,7 @@ server.get('/images', (req, reply) => {
 })
 
 
-server.listen({ port: 3000, host: '127.0.0.1' }, err => {
+server.listen({ port: 3000, host: '0.0.0.0' }, err => {
     if (err) {
         console.log(err);
         process.exit(1);
