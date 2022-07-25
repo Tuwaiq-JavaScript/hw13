@@ -2,7 +2,6 @@
   "license": "UNLICENSED",
   "scripts": {
     "dev": "nodemon src/server.ts | pino-colada",
-    "prebuild": "rm -rf dist",
     "build": "tsc",
     "start": "node dist/server.js"
   },
