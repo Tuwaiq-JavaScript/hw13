@@ -1,4 +1,5 @@
 {
+       "name": "hw",     "version": "1.0.0",     "description": "",     "main": "server.js",   
   "scripts": {
     "dev": "nodemon src/server.ts | pino-colada",
     "build": "rm -rf dist && tsc",
@@ -12,6 +13,8 @@
     "@types/node": "^18.6.0",
     "nodemon": "^2.0.19",
     "pino": "^8.3.0",
-    "pino-colada": "^2.2.2"
+    "pino-colada": "^2.2.2",
+    "ts-node": "^10.8.1",     
+    "typescript": "^4.7.4"   
   }
 }
