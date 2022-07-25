@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "nodemon src/server.ts | pino-colada"
+  },
+  "dependencies": {
+    "@fastify/static": "^6.4.1",
+    "fastify": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "nodemon": "^2.0.19",
+    "pino": "^8.3.0",
+    "pino-colada": "^2.2.2"
+  }
+}
