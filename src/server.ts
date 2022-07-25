@@ -49,15 +49,15 @@ server.get('/cv', (req, reply) => {
 //     }
 // })
 
-const port: any = process.env.PORT ?? process.env.$PORT ?? 4002;
+const port: any = process.env.$PORT ?? 4003;
 export function listen() {
-	server
-		.listen({
-			port: port,
-			host: '0.0.0.0',
-		})
-		.catch((err) => {
-			server.log.error(err);
-			process.exit(1);
-		});
+    server
+        .listen({
+            port: port,
+            host: '0.0.0.0',
+        })
+        .catch((err) => {
+            server.log.error(err);
+            process.exit(1);
+        });
 }
