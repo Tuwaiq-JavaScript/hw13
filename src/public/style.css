@@ -1,0 +1,44 @@
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.orange {
+    color: orange;
+}.about{
+    font-size:40px ;
+}.flex{
+    display: flex;
+    justify-content: space-around;
+    }
+    .flex-tow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .image-one{
+        height: 290px;
+        width: 400px;
+     }
+     .image-two{
+         height: 300px;
+         width: 400px;
+     }
+     .column-flex{
+         display: flex;
+         flex-direction: column;
+         gap: 20px;
+         /* padding: 50px;
+         border-radius: 40px; */
+
+     }
+     .image-contact{
+         height: 570px;
+         width: 500px;
+     }
+     /* } .po{
+        padding: 50px;
+        border-radius: 40px;
+        color: aqua;
+     } */
