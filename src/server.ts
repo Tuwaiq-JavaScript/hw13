@@ -50,7 +50,6 @@ server.get('/cv', (req, reply) => {
 // })
 
 const port: any = process.env.PORT ?? process.env.$PORT ?? 4003;
-export function listen() {
     server
         .listen({
             port: port,
@@ -60,4 +59,3 @@ export function listen() {
             server.log.error(err);
             process.exit(1);
         });
-}
