@@ -42,9 +42,22 @@ server.get('/cv', (req, reply) => {
     return reply.sendFile('hadi-cv.pdf')
 })
 
-server.listen({ port: 4002, host: '0.0.0.0' }, err => {
-    if (err) {
-        console.log(err);
-        process.exit(1);
-    }
-})
+// server.listen({ port: 4002, host: '0.0.0.0' }, err => {
+//     if (err) {
+//         console.log(err);
+//         process.exit(1);
+//     }
+// })
+
+const port: any = process.env.PORT ?? process.env.$PORT ?? 4002;
+export function listen() {
+	server
+		.listen({
+			port: port,
+			host: '0.0.0.0',
+		})
+		.catch((err) => {
+			server.log.error(err);
+			process.exit(1);
+		});
+}
