@@ -1,7 +1,8 @@
 {
   "scripts": {
-    "dev": "nodemon src/server.ts | pino-colada",
-    "start": "node server.ts"
+    "dev": "node ace serve --watch",
+    "build": "node ace build --production",
+    "start": "node server.js"
   },
   "dependencies": {
     "@fastify/static": "^6.4.1",
