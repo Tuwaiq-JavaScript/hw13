@@ -16,6 +16,8 @@
     "@types/node": "^18.0.6",
     "nodemon": "^2.0.19",
     "pino": "^8.3.0",
-    "pino-colada": "^2.2.2"
+    "pino-colada": "^2.2.2",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
   }
 }
