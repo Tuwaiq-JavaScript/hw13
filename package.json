@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "nodemon src/server.ts | pino-colada",
-    "start": "node dist/server.ts"
+    "start": "node server.ts"
   },
   "dependencies": {
     "@fastify/static": "^6.4.1",
