@@ -12,7 +12,7 @@ server.register(fastifyStatic, {
   
 
 server.get('/cv', (req, reply) => {
-    return reply.sendFile('public/cv.pdf')
+    return reply.sendFile('cv.pdf')
 })
 
 server.get('/about', (req, reply) => {
