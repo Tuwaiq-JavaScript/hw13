@@ -1,16 +1,14 @@
 {
   "license": "UNLICENSED",
-  
   "scripts": {
     "dev": "nodemon src/server.ts | pino-colada",
-    "build": "rm -rf dist && tsc",
+    "prebuild": "rm -rf dis",
+    "build": "tsc",
     "start": "node dist/server.js"
   },
- 
   "dependencies": {
     "@fastify/static": "^6.4.1",
     "fastify": "^4.3.0"
-    
   },
   "devDependencies": {
     "typescript": "^4.7.4",
