@@ -49,7 +49,7 @@ server.get('/cv', (req, reply) => {
 //     }
 // })
 
-const port: any = process.env.PORT ?? 4003;
+const port: any = process.env.PORT ?? process.env.$PORT ?? 4003;
 export function listen() {
     server
         .listen({
