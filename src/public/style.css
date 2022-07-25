@@ -1,0 +1,26 @@
+.flex{
+display: flex;
+justify-content: space-around;
+}
+.flex-tow{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.image-one{
+   height: 290px;
+   width: 400px;
+}
+.image-two{
+    height: 300px;
+    width: 400px;
+}
+.column-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.image-three{
+    height: 570px;
+    width: 500px;
+} 
