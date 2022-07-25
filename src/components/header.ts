@@ -20,7 +20,7 @@ export function Header() {
         <body>
           <header>
             <div>
-              <img src="http://localhost:4002/public/images/12.jpg"/>
+              <img src="https://hw-thirteen.herokuapp.com/public/images/12.jpg"/>
             </div>
             <h1>Essa Hussain ALalshahi</h1>
             <section>
