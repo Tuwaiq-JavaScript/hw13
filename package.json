@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "nodemon -r dotenv/config src/index.ts",
+    "dev": "nodemon src/server.ts | pino-colada",
     "build": "rm -rf dist && tsc",
     "start": "node dist/server.js"
   },
