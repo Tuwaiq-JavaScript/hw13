@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "nodemon src/server.ts | pino-colada",
     "build": "tsc",
-    "postbuild": "cp -r ./src/public ./build",
+    "postbuild": "cp -r ./src/public ./dist",
     "start": "node dist/server.js"
   },
   "dependencies": {
