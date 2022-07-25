@@ -1,0 +1,43 @@
+
+body{
+
+    background-color: rgb(221, 221, 238);
+}
+
+
+
+.text {
+ 
+    text-align: center;
+        width: 200px;
+        height: 100px;
+        margin-left: 35%;
+        margin-top: 10%;
+        border: 4px solid rgb(190, 218, 136);
+        background-color: azure;
+        padding: 50px;
+        font-size: 20px;
+      
+}
+
+.sport{
+    height: 200px;
+    width: 200px;
+   padding-left: 80px;
+
+ }
+ .Book{
+     height: 200px;
+     width: 200px;
+     padding-right: 80px;
+ }
+
+
+
+ .view{
+    display: flex;
+     justify-content: center;
+  
+    
+    }
+     
