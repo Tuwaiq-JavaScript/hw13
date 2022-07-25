@@ -2,7 +2,7 @@ import fastifyStatic from "@fastify/static";
 import Fastify from 'fastify';
 import { join } from 'path';
 import { Interestspage } from "./components/interests";
-import { Page } from './components/Page';
+import { Page } from './components/page';
 import { Resumepage } from "./components/resume";
 
 const server = Fastify({ logger: true });
