@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "nodemon src/server.ts | pino-colada",
     "build": "rm -rf dist && tsc",
-		"start": "node dist/server"
+		"start": "node dist/server.js"
   },
   "dependencies": {
     "@fastify/static": "^6.4.1",
