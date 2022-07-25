@@ -44,7 +44,7 @@ header, main, footer {
 header {
     padding: 2em;
     text-align: center;
-    background-image: url('http://localhost:4002/public/images/15.jpg');
+    background-image: url('https://hw-thirteen.herokuapp.com/public/images/15.jpg');
     background-size: cover;
     background-position: fixed;
     color: white;
