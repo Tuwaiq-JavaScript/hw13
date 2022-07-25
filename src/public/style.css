@@ -1,0 +1,43 @@
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.orange {
+    color: orange;
+}
+.navbar{
+    background: #3474e6;
+    color: white;
+    height: 60px;
+}
+.navbar .logo{
+    font-size: x-large;
+    font-weight: bold;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.navbar a:hover{
+    color: #7d9ed865;
+}
+.navbar .cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}
+.navbar ul li{
+    margin-left: 20px;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    color: aquamarine;
+}
