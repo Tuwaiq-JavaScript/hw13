@@ -1,0 +1,21 @@
+.red{
+    color: #f7a5a5;
+}   
+
+.blue{
+    color: blue;
+}
+
+.orange{
+    color: rgb(247, 165, 165);
+}
+
+body{
+background-color: rgb(248, 230, 234);
+text-align: center;
+margin: 20%;
+line-height: 600%;}
+
+nav{
+    color: palevioletred;
+}
