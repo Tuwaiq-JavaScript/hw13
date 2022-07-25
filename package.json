@@ -1,8 +1,7 @@
-{"name": "hw13",
-
-"version": "1.0.0",
-
-"main": "server.js",
+{
+  "name": "hw13",
+  "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
     "dev": "nodemon src/server.ts | pino-colada",
     "build": "rm -rf dist && tsc",
@@ -10,6 +9,7 @@
   },
   "dependencies": {
     "@fastify/static": "^6.4.1",
+    "@tsconfig/node16": "^1.0.3",
     "fastify": "^4.3.0"
   },
   "devDependencies": {
