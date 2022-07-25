@@ -30,7 +30,7 @@ server.get('/interests', (req, reply) => {
     ${Interests()}`)
 })
 
-server.listen({ port: 4002, host: '127.0.0.1' }, err => {
+server.listen({ port: 4002, host: '0.0.0.0' }, err => {
     if (err) {
         console.log(err);
         process.exit(1);
