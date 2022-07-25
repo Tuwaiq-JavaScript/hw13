@@ -37,7 +37,8 @@ server.get('/cv', (req, reply) => {
     return reply.sendFile('Free-Basic-Resume-Template.webp')
 })
 
-server.listen({ port: 4002, host: '0.0.0.0' }, err => {
+const port: any =  process.env.$PORT || 4002
+server.listen({ port, host: '0.0.0.0' }, err => {
     if (err) {
         console.log(err);
         process.exit(1);

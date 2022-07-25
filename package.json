@@ -2,7 +2,8 @@
   
   "scripts": {
     "dev": "nodemon src/server.ts | pino-colada",
-    "start": "node src/server.ts"
+    "build": "rm -rf dist && tsc",
+    "start": "node dist/server.js"
 
   },
   
