@@ -1,0 +1,21 @@
+{
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "nodemon src/server.ts | pino-colada",
+    "build": "tsc",
+    "postbuild": "cp -r ./src/public ./dist",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "@fastify/static": "^6.4.1",
+    "fastify": "^4.3.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/node": "^18.0.6",
+    "nodemon": "^2.0.19",
+    "pino": "^8.3.0",
+    "pino-colada": "^2.2.2",
+    "typescript": "^4.7.4"
+  }
+}
