@@ -1,0 +1,7 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    color: cornflowerblue;
+    }
